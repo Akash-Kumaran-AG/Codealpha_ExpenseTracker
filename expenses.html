@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
     <link rel="stylesheet" href="expenses.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-
     <h1>Expense Tracker</h1>
     <label for="expense">Enter Expense:</label>
     <input type="text" id="expense" placeholder="Expense description" style="width: fit-content;">
@@ -17,6 +16,7 @@
     <input type="number" id="amount" placeholder="Amount" style="width: fit-content;">
     <br>
     <button onclick="addExpense()">Add Expense</button>
+    <button onclick="resetFields()">Reset</button>
 
     <div id="expenses">
         <h2>Expenses</h2>
